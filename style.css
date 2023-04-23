@@ -1,28 +1,44 @@
-body{
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    border: 10px solid white;
-    color:antiquewhite;
-    width: 400px;
-    margin: 0 auto;
-    margin-top: 40px;
-    padding: 60px;
-    background-color: black;
+/*
+Description: Minimal styling for in-class exercise
+Author:   Tariro Gumbo 
+Email: tariro.gumbo@student.curtin.edu
+Tags: RSS Reader
+*/
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the top navigation bar */
+header {
+  width: 100%;
+  overflow: hidden;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
 
 }
-.circle{
-    /* float: left;
-     width:100px;
-     height:100px; */
-    margin: 20px;  
-    border-radius: 50%;
-    /* shape-outside:circle();
-    clip-path:circle(); */
-    background: red;
-    color: black;
-    font-size: 65px;
-    padding: 5px 20px;
+
+/* Style the content */
+content {
+  float: left;
+  width: 100%;
+  padding: 20px;
 }
-.circle:hover{
-    background-color: #6f7a63;
+
+/* Style the footer */
+footer {
+  clear: both;
+  text-align: center;
+  width: 100%;
+  /* background-color: #f1f1f1; */
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
 }
