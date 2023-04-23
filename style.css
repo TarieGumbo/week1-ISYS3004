@@ -1,31 +1,36 @@
-/* Name: style.css
-   Author: PUT-YOUR-NAME-HERE
-   Description: Styling for Flatland
-   Version: 1.0
+/*
+Description: Minimal styling for in-class exercise
+Author: Tarie
+Email: tariro.gumbo@student.curtin.edu
+Tags: Todo
 */
+
 body {
-  font-family: "Helvetica", "Arial", sans-serif;
-  box-sizing: border-box;
-  padding-top: 40px;
-  width: 550px;
+  font-family: helvetica, sans-serif;
+  font-size: 16px;
+  width: 600px;
   margin: 0 auto;
 }
-
-#square {
-  float:left;
-  width: 200px;
-  height: 200px;
-  background: red;
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+}
+.task {
+  list-style: none;
 }
 
-#words {
-  float: left;
-  width: 250px;
-  height: 200px;
-  font-size: 25px;
-  text-align: right;
-  padding: 5px;
-  margin-right: 10px;
-  border-radius: 10%;
-  border-right: 5px solid red;
+.task.completed {
+  text-decoration: line-through;
+}
+button{
+  background-color: #176ad8e1;
+  color: white;
+  border: none;
+  padding:5px 5px ;
+}
+input[type=button]{
+  background-color: #176ad8e1;
+  color: white;
+  border: none;
+  padding:5px 5px ;
 }
