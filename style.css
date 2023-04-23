@@ -1,36 +1,28 @@
-/*
-Description: Minimal styling for in-class exercise
-Author: Tarie
-Email: tariro.gumbo@student.curtin.edu
-Tags: Todo
-*/
+body{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 10px solid white;
+    color:antiquewhite;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 60px;
+    background-color: black;
 
-body {
-  font-family: helvetica, sans-serif;
-  font-size: 16px;
-  width: 600px;
-  margin: 0 auto;
 }
-h1 {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 40px;
+.circle{
+    /* float: left;
+     width:100px;
+     height:100px; */
+    margin: 20px;  
+    border-radius: 50%;
+    /* shape-outside:circle();
+    clip-path:circle(); */
+    background: red;
+    color: black;
+    font-size: 65px;
+    padding: 5px 20px;
 }
-.task {
-  list-style: none;
-}
-
-.task.completed {
-  text-decoration: line-through;
-}
-button{
-  background-color: #176ad8e1;
-  color: white;
-  border: none;
-  padding:5px 5px ;
-}
-input[type=button]{
-  background-color: #176ad8e1;
-  color: white;
-  border: none;
-  padding:5px 5px ;
+.circle:hover{
+    background-color: #6f7a63;
 }
